@@ -7,7 +7,7 @@ on:
       - postprocess.ts
   workflow_dispatch: # Required even though this is currently empty
   schedule:
-    - cron: '*/5 * * * *' # Run this workflow every 5 minutes
+    - cron: '*/30 * * * *' # Run this workflow every 30 minutes
 
 jobs:
   scheduled:
